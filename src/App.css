@@ -1,0 +1,63 @@
+.App {
+    background-color: rgb(42, 69, 165);
+    color: #fff;
+    font-family: Helvetica;
+    width: 30%;
+    margin: 2em auto;
+    padding: 0 2em 1em;
+    border-radius: 2em;
+}
+
+.todo-header h1 {
+    text-align: center;
+    padding-top: .5em;
+}
+
+.todo-form h2 {
+    text-align: center;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-top: .5em;
+    font-weight: bold;
+}
+
+.form-control input {
+    background-color: #a1a7cb;
+    border: none;
+    padding: .3em;
+}
+
+input[type='submit'] {
+    width: 100%;
+    padding: .7em;
+    margin-top: 1em;
+    background-color: #081c81;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo p {
+    font-size: .9em;
+    font-style: italic;
+}
+
+.actions svg {
+    cursor: pointer;
+    margin-right: .5em;
+    font-size: 1.1em;
+    transition: .5s;
+}
+
+.actions svg:hover {
+    color: black;
+}
+
+.todo-done {
+    text-decoration: line-through;
+    color: rgb(239, 92, 92);
+}
